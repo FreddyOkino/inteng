@@ -19,20 +19,28 @@
            <h5> Conversor de moedas</h5>
         </div>
         <div class="mt-5 centro">
+            <div class="sle centro">
+                <div style=>
+                    <label for="moedaOrigem" class="mx-2">De: </label>
+                    <select  style="padding: 5px 20px; background-color:rgb(189, 186, 186); border:none" name="primeiro" id="moedaOrigem" >
+                        <option value="BRL">Real</option>
+                        <option value="USD">Dólar</option>
+                        <option value="EUR">Euro</option>
+                    </select>
 
-            <label for="moedaOrigem" class="mx-2">De: </label>
-            <select  style="padding: 5px 20px; background-color:rgb(189, 186, 186); border:none" name="primeiro" id="moedaOrigem" >
-                <option value="BRL">Real</option>
-                <option value="USD">Dólar</option>
-                <option value="EUR">Euro</option>
-            </select>
+                </div>
+    
+                <div >
+                    <label for="moedaDestino" style="margin-left: 50px;">Para: </label>
+                   <select style="padding: 5px 20px; background-color:rgb(189, 186, 186); border: none" class="mx-2"  name="segundo" id="moedaDestino">
+                        <option value="BRL">Real</option>
+                        <option value="USD">Dólar</option>
+                        <option value="EUR">Euro</option>
+                    </select>
 
-            <label for="moedaDestino" style="margin-left: 50px;">Para: </label>
-           <select style="padding: 5px 20px; background-color:rgb(189, 186, 186); border: none" class="mx-2"  name="segundo" id="moedaDestino">
-                <option value="BRL">Real</option>
-                <option value="USD">Dólar</option>
-                <option value="EUR">Euro</option>
-            </select>
+                </div>
+
+            </div>
             <div class="mt-5">
                 <input class="campos"  id="valor" placeholder="Insira o valor:                                            0.0" type="number">
             </div>

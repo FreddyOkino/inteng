@@ -20,6 +20,7 @@ h5{
 .centro{
     text-align: center;
     align-items: center;
+    margin: auto;
 }
 .campos{
     width: 53%;
@@ -62,4 +63,9 @@ input[type="number"]::-webkit-inner-spin-button,
 button:hover{
     background-color: rgb(118, 118, 118);
     color: rgb(14, 14, 14);
+}
+.sle{
+    display: inline-flex;
+    margin: auto;
+    flex-wrap: wrap;
 }
