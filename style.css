@@ -67,5 +67,5 @@ button:hover{
 .sle{
     display: inline-flex;
     margin: auto;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
